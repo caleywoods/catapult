@@ -16,3 +16,18 @@ Twilio's 'Body' header with the Grove 'message' header and supply a default of '
 Feel free to tweak this.
 
 It's powered by Sinatra.
+
+##Setup
+
+* Clone this repo - git clone git://github.com/caleywoods/catapult.git
+* cd catapult
+* heroku create appname
+* heroku config:add grove_api_key=sooper_secret_key
+* git push heroku master
+
+This should deploy your version of catapult out to Heroku. Then you need to login to Twilio and setup your SMS number to
+HTTP POST to http://yourapp.heroku.com/incoming
+
+Once this is complete you should be able to SMS the Twilio Number and see your replies in the Grove channel.
+
+![Example](http://imgur.com/aCWyd.png)
