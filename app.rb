@@ -19,6 +19,6 @@ post '/incoming' do
   from    = params[:From]
   body    = params[:Body]
   message = "SMS reply from: #{from} - #{body}"
-  service = "Hubot"
+  service = "Mortimus"
   RestClient.post "https://grove.io/api/notice/#{grove_api_key}/", :service => service, :message => message
 end
