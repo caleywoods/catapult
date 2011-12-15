@@ -1,5 +1,8 @@
 require 'sinatra'
+require 'rest_client'
 
+# This is meant to come from the Heroku config vars
+# http://devcenter.heroku.com/articles/config-vars
 grove_api_key = ENV['grove_api_key']
 
 get '/' do
