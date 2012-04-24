@@ -39,4 +39,4 @@ HTTP POST to http://yourapp.heroku.com/incoming
 
 Once this is complete you should be able to SMS the Twilio Number and see your replies in the Grove channel.
 
-![Example](http://i.imgur.com/wcjzQ.png)
+![Example](http://i.imgur.com/fJkBX.png)
