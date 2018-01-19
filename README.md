@@ -9,8 +9,6 @@
                                        \/_/
 
 
-[![endorse](http://api.coderwall.com/caleywoods/endorsecount.png)](http://coderwall.com/caleywoods) me on CoderWall
-
 This is a simple app to accept an HTTP POST coming from a Twilio received SMS and forward it to a [Grove.io](http://Grove.io) chat room.
 
 
