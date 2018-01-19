@@ -14,7 +14,7 @@
 This is a simple app to accept an HTTP POST coming from a Twilio received SMS and forward it to a [Grove.io](http://Grove.io) chat room.
 
 
-##Why do you need this?
+## Why do you need this?
 Glad you asked! Grove now supports sending "notifications" to your channel via HTTP POST. So after I wrote the Hubot script that lets
 you send SMS messages from Hubot (and thereby, Grove) I wanted a way to get any replies to come back into the room. This is that solution.
 
@@ -26,7 +26,7 @@ Feel free to tweak this.
 
 It's powered by Sinatra.
 
-##Setup
+## Setup
 
 * Clone this repo - git clone git://github.com/caleywoods/catapult.git
 * cd catapult
